@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mi-primer-app-ciu/static/css/main.4bb8a894.css",
+    "main.js": "/mi-primer-app-ciu/static/js/main.3f19b78d.js",
+    "static/js/787.36a434f8.chunk.js": "/mi-primer-app-ciu/static/js/787.36a434f8.chunk.js",
+    "static/media/imagen1.jpg": "/mi-primer-app-ciu/static/media/imagen1.5c4334906459f4a52674.jpg",
+    "static/media/tw.png": "/mi-primer-app-ciu/static/media/tw.9a534497f272fbde95fd.png",
+    "static/media/ig.png": "/mi-primer-app-ciu/static/media/ig.2847bae7160928381355.png",
+    "static/media/fc.png": "/mi-primer-app-ciu/static/media/fc.4cff28610b81755fba4b.png",
+    "static/media/luna.png": "/mi-primer-app-ciu/static/media/luna.cfa37b178f3890f6d652.png",
+    "index.html": "/mi-primer-app-ciu/index.html",
+    "main.4bb8a894.css.map": "/mi-primer-app-ciu/static/css/main.4bb8a894.css.map",
+    "main.3f19b78d.js.map": "/mi-primer-app-ciu/static/js/main.3f19b78d.js.map",
+    "787.36a434f8.chunk.js.map": "/mi-primer-app-ciu/static/js/787.36a434f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bb8a894.css",
+    "static/js/main.3f19b78d.js"
+  ]
+}
