@@ -3,8 +3,8 @@ import '../estilos.css'
 import logoN from '../asset/logoN.png';
 import luna from '../asset/luna.png';
 import fc from '../asset/fc.png';
-import tw from '../asset/tw.png';
 import ig from '../asset/ig.png';
+import tw from '../asset/tw.png';
 
 
 const Header = () => {
