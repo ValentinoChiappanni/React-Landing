@@ -1,11 +1,10 @@
-import React from "react";
-import '../estilos.css'
+import React from 'react';
+import '../estilos.css';
 import logoN from '../asset/logoN.png';
 import luna from '../asset/luna.png';
 import fc from '../asset/fc.png';
-import ig from '../asset/ig.png';
 import tw from '../asset/tw.png';
-
+import ig from '../asset/ig.png';
 
 const Header = () => {
   return (
@@ -23,15 +22,27 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse text-center" id="collapsibleNavbar">
+          <div
+            className="collapse navbar-collapse text-center"
+            id="collapsibleNavbar"
+          >
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <button className="btn" id="darkModeButton">
-                  <img src={luna} className="imagenNav" id="dark" alt="Dark Mode" />
+                  <img
+                    src={luna}
+                    className="imagenNav"
+                    id="dark"
+                    alt="Dark Mode"
+                  />
                 </button>
               </li>
               <li className="nav-item">
-                <a href="./register.html" className="btn btn-danger" id="registerButton">
+                <a
+                  href="./register.html"
+                  className="btn btn-danger"
+                  id="registerButton"
+                >
                   Registrarse
                 </a>
               </li>
@@ -47,7 +58,10 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="https://es-la.facebook.com/">
+                    <a
+                      className="dropdown-item"
+                      href="https://es-la.facebook.com/"
+                    >
                       <i className="text-dark">
                         <img src={fc} className="img" alt="Facebook" />
                         Facebook
@@ -63,7 +77,10 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="https://www.instagram.com/">
+                    <a
+                      className="dropdown-item"
+                      href="https://www.instagram.com/"
+                    >
                       <i className="text-dark">
                         <img src={ig} className="img" alt="Instagram" />
                         Instagram
@@ -72,12 +89,12 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-               </ul>
+            </ul>
           </div>
-           </div>
+        </div>
       </nav>
     </header>
   );
-}
+};
 
 export default Header;
