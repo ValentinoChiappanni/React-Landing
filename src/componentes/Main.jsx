@@ -11,7 +11,7 @@ const MainIndex = () => {
             </section>
             <section className="row">
                 <div className="col-md-6">
-                    <img src={imagen1} className="imagen " />
+                      <img src={imagen1} className="imagen " />
                 </div>
                 <div className="col-md-6">
                     <h2>La forma en que trabajamos ha evolucionado</h2>
