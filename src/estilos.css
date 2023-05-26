@@ -1,0 +1,111 @@
+:root {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+label {
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 30px;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 1.7rem;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.map-container {
+    max-width: 100%;
+    height: auto;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    width: 15%;
+    margin: 1%;
+}
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .navbar {
+    background-color: #222;
+}
+
+.fondo {
+    background: #8787f5;
+    background: linear-gradient(317deg, #8787f5 15%, #8a8aea 25%, #f3abf8 50%, #f397fc 75%, #d987ff 100%);
+    background: -webkit-linear-gradient(317deg, #8787f5 15%, #8a8aea 25%, #f3abf8 50%, #f397fc 75%, #d987ff 100%);
+    background: -moz-linear-gradient(317deg, #8787f5 15%, #8a8aea 25%, #f3abf8 50%, #f397fc 75%, #d987ff 100%);
+}
+
+.imagen {
+    width: 90%;
+}
+
+.card-img-top {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    background-color: #8787f500;
+    border-color: #8787f500;
+    max-width: 90%;
+}
+
+.imagenNav {
+    width: 50px;
+}
+
+.nav-item {
+    margin-left: 5px;
+}
+
+.marcas {
+    width: 30%;
+}
+
+.recuadro {
+    border-width: 3px;
+    border-style: dashed;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
