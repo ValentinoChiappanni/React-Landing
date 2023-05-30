@@ -1,7 +1,7 @@
 import React from 'react';
 import '../estilos.css';
-import fc from '../asset/fc.png';
 import tw from '../asset/tw.png';
+import fc from '../asset/fc.png';
 import ig from '../asset/ig.png';
 import logo from '../asset/log.png';
 const Footer = () => {
