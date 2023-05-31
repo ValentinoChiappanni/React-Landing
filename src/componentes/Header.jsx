@@ -39,7 +39,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="./Formulario"
+                  href="/Formulario"
                   className="btn btn-danger"
                   id="registerButton"
                 >
