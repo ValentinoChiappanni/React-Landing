@@ -1,7 +1,6 @@
 import React from 'react';
 import '../estilos.css';
 import logoN from '../asset/logoN.png';
-import luna from '../asset/luna.png';
 import fc from '../asset/fc.png';
 import tw from '../asset/tw.png';
 import { NavLink } from 'react-router-dom';
@@ -28,16 +27,6 @@ const Header = () => {
             id="collapsibleNavbar"
           >
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <button className="btn" id="darkModeButton">
-                  <img
-                    src={luna}
-                    className="imagenNav"
-                    id="dark"
-                    alt="Dark Mode"
-                  />
-                </button>
-              </li>
               <li className="nav-item">
                 <NavLink
                   to="/React-Landing/Formulario"
