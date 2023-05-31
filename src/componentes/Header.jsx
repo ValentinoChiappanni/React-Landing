@@ -11,7 +11,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
-          <a className="navbar-brand" href="./index.html">
+          <a className="navbar-brand" href="/React-Landing">
             <img src={logoN} id="logo" alt="Logo" />
           </a>
           <button
@@ -39,7 +39,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="./register.html"
+                  href="./Formulario"
                   className="btn btn-danger"
                   id="registerButton"
                 >

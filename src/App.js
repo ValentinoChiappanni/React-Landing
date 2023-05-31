@@ -1,15 +1,16 @@
 import './App.css';
 import './estilos.css';
-import Header from './componentes/Header';
-import MainIndex from './componentes/Main';
-import Footer from './componentes/Footer';
+import { Routes, Route } from 'react-router-dom';
+import Home from './componentes/Main';
+import Formulario from './componentes/Formulario';
 function App() {
   return (
-    <div>
-      <Header />
-      <MainIndex />
-      <Footer />
-    </div>
+    <>
+      <Routes>
+        <Route path="/React-Landing" element={<Home />} />
+        <Route path="/Formulario" element={<Formulario />} />
+      </Routes>
+    </>
   );
 }
 

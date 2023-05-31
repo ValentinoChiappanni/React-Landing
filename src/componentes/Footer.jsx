@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2 align-items-lg-center d-flex justify-content-center">
-            <a href="./index.html">
+            <a href="/React-Landing">
               <img src={logo} />
             </a>
           </div>
