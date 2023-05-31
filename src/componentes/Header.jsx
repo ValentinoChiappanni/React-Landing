@@ -40,7 +40,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/Formulario"
+                  to="/React-Landing/Formulario"
                   className="btn btn-danger"
                   id="registerButton"
                 >
