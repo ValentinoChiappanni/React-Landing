@@ -8,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/React-Landing" element={<Home />} />
-        <Route path="/Formulario" element={<Formulario />} />
+        <Route path="/React-Landing/Formulario" element={<Formulario />} />
       </Routes>
     </>
   );
