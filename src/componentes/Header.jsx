@@ -4,6 +4,7 @@ import logoN from '../asset/logoN.png';
 import luna from '../asset/luna.png';
 import fc from '../asset/fc.png';
 import tw from '../asset/tw.png';
+import { NavLink } from 'react-router-dom';
 import ig from '../asset/ig.png';
 
 const Header = () => {
@@ -11,9 +12,9 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/React-Landing">
+          <NavLink to="/React-Landing" className="navbar-brand">
             <img src={logoN} id="logo" alt="Logo" />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -38,13 +39,13 @@ const Header = () => {
                 </button>
               </li>
               <li className="nav-item">
-                <a
-                  href="/React-Landing/Formulario"
+                <NavLink
+                  to="/Formulario"
                   className="btn btn-danger"
                   id="registerButton"
                 >
                   Registrarse
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <a
