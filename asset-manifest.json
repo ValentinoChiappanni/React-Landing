@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Landing/static/css/main.484630cd.css",
+    "main.css": "/React-Landing/static/css/main.3e38684d.css",
     "main.js": "/React-Landing/static/js/main.fed1a1b9.js",
     "static/js/787.36a434f8.chunk.js": "/React-Landing/static/js/787.36a434f8.chunk.js",
     "static/media/imagen1.jpg": "/React-Landing/static/media/imagen1.5c4334906459f4a52674.jpg",
@@ -11,12 +11,12 @@
     "static/media/ig.png": "/React-Landing/static/media/ig.2847bae7160928381355.png",
     "static/media/fc.png": "/React-Landing/static/media/fc.4cff28610b81755fba4b.png",
     "index.html": "/React-Landing/index.html",
-    "main.484630cd.css.map": "/React-Landing/static/css/main.484630cd.css.map",
+    "main.3e38684d.css.map": "/React-Landing/static/css/main.3e38684d.css.map",
     "main.fed1a1b9.js.map": "/React-Landing/static/js/main.fed1a1b9.js.map",
     "787.36a434f8.chunk.js.map": "/React-Landing/static/js/787.36a434f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.484630cd.css",
+    "static/css/main.3e38684d.css",
     "static/js/main.fed1a1b9.js"
   ]
 }
