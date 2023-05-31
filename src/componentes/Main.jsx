@@ -8,6 +8,7 @@ import img2 from '../asset/2.png';
 import img3 from '../asset/3.png';
 import awe from '../asset/awe.png';
 import high from '../asset/high.png';
+import { Tarjeta } from './Tarjeta';
 const Home = () => {
   return (
     <div>
@@ -42,58 +43,21 @@ const Home = () => {
               Hay Espacio para Tu Organización en Virbela
             </h2>
           </div>
-          <div className="col-md-4">
-            <div className="card">
-              <img className="card-img-top" src={img1} />
-              <div className="card-body">
-                <h4 className="card-title">Trabajo remoto</h4>
-                <p className="card-text">
-                  Todo lo que tu equipo necesita para colaborar desde cualquier
-                  lugar
-                </p>
-                <a
-                  href="#"
-                  className="btn btn-primary align-items-lg-center d-flex justify-content-center"
-                >
-                  Mas informacion
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <img className="card-img-top" src={img2} />
-              <div className="card-body">
-                <h4 className="card-title">Aprendizaje remoto</h4>
-                <p className="card-text">
-                  Experiencias de aprendizaje y desarrollo de alto impacto
-                </p>
-                <a
-                  href="#"
-                  className="btn btn-primary align-items-lg-center d-flex justify-content-center"
-                >
-                  Mas informacion
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <img className="card-img-top" src={img3} />
-              <div className="card-body">
-                <h4 className="card-title">Eventos virtuales</h4>
-                <p className="card-text">
-                  Eventos inolvidables que realmente valen la pena.
-                </p>
-                <a
-                  href="#"
-                  className="btn btn-primary align-items-lg-center d-flex justify-content-center"
-                >
-                  Mas informacion
-                </a>
-              </div>
-            </div>
-          </div>
+          <Tarjeta
+            imagen={img1}
+            titulo="Trabajo remoto"
+            descripcion="Todo lo que tu equipo necesita para colaborar desde cualquier lugar"
+          />
+          <Tarjeta
+            imagen={img2}
+            titulo="Aprendizaje remoto"
+            descripcion="Experiencias de aprendizaje y desarrollo de alto impacto"
+          />
+          <Tarjeta
+            imagen={img3}
+            titulo="Eventos virtuales"
+            descripcion="Eventos inolvidables que realmente valen la pena."
+          />
         </section>
         <section>
           <h2 className="text-center">
