@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Landing/static/css/main.4bb8a894.css",
-    "main.js": "/React-Landing/static/js/main.54812ff7.js",
+    "main.js": "/React-Landing/static/js/main.982af1e5.js",
     "static/js/787.36a434f8.chunk.js": "/React-Landing/static/js/787.36a434f8.chunk.js",
     "static/media/imagen1.jpg": "/React-Landing/static/media/imagen1.5c4334906459f4a52674.jpg",
     "static/media/3.png": "/React-Landing/static/media/3.a3994f2290e704d33dbe.png",
@@ -13,11 +13,11 @@
     "static/media/luna.png": "/React-Landing/static/media/luna.cfa37b178f3890f6d652.png",
     "index.html": "/React-Landing/index.html",
     "main.4bb8a894.css.map": "/React-Landing/static/css/main.4bb8a894.css.map",
-    "main.54812ff7.js.map": "/React-Landing/static/js/main.54812ff7.js.map",
+    "main.982af1e5.js.map": "/React-Landing/static/js/main.982af1e5.js.map",
     "787.36a434f8.chunk.js.map": "/React-Landing/static/js/787.36a434f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bb8a894.css",
-    "static/js/main.54812ff7.js"
+    "static/js/main.982af1e5.js"
   ]
 }
